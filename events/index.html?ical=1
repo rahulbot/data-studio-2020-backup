@@ -1,0 +1,9 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Data Storytelling Studio 2020 - ECPv5.1.2//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Data Storytelling Studio 2020
+X-ORIGINAL-URL:https://datastudio2020.datatherapy.org
+X-WR-CALDESC:Events for Data Storytelling Studio 2020
+END:VCALENDAR

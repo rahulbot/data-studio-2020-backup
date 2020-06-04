@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://datastudio2020.datatherapy.org/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="https://datastudio2020.datatherapy.org/wp-content/themes/twentyfifteen/js/html5.js?ver=3.7.0"></script>
+	<![endif]-->
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Cars in Space! A Data Game &#8211; Data Storytelling Studio 2020</title>
+<link rel='dns-prefetch' href='https://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='https://s.w.org/' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Data Storytelling Studio 2020 &raquo; Feed" href="feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Data Storytelling Studio 2020 &raquo; Comments Feed" href="comments/feed/index.html" />
+<link rel="alternate" type="text/calendar" title="Data Storytelling Studio 2020 &raquo; iCal Feed" href="events/index.html%3Fical=1" />
+<link rel="alternate" type="application/rss+xml" title="Data Storytelling Studio 2020 &raquo; Cars in Space! A Data Game Comments Feed" href="2020/04/22/cars-in-space-a-data-game/feed/index.html" />
+	<script type="text/javascript">
+		var ajaxurl = 'https://datastudio2020.datatherapy.org/wp-admin/admin-ajax.php';
+	</script>
+			<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/datastudio2020.datatherapy.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.1"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='userlist-style-css'  href='wp-content/plugins/wp-users-list-widget/css/style.css%3Fver=5.4.1.css' media='all' />
+<link rel='stylesheet' id='tribe-common-skeleton-style-css'  href='wp-content/plugins/the-events-calendar/common/src/resources/css/common-skeleton.min.css%3Fver=4.12.3.css' media='all' />
+<link rel='stylesheet' id='tribe-tooltip-css'  href='wp-content/plugins/the-events-calendar/common/src/resources/css/tooltip.min.css%3Fver=4.12.3.css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='wp-includes/css/dist/block-library/style.min.css%3Fver=5.4.1.css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='wp-includes/css/dist/block-library/theme.min.css%3Fver=5.4.1.css' media='all' />
+<link rel='stylesheet' id='wp-blog-designer-fontawesome-stylesheets-css'  href='wp-content/plugins/blog-designer/css/fontawesome-all.min.css%3Fver=5.4.1.css' media='all' />
+<link rel='stylesheet' id='wp-blog-designer-css-stylesheets-css'  href='wp-content/plugins/blog-designer/css/designer_css.css%3Fver=5.4.1.css' media='all' />
+<link rel='stylesheet' id='collapseomatic-css-css'  href='wp-content/plugins/jquery-collapse-o-matic/light_style.css%3Fver=1.6.css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext&#038;display=fallback' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='wp-content/themes/twentyfifteen/genericons/genericons.css%3Fver=3.2.css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-style-css'  href='wp-content/themes/twentyfifteen/style.css%3Fver=20190507.css' media='all' />
+<style id='twentyfifteen-style-inline-css'>
+
+		/* Custom Header Background Color */
+		body:before,
+		.site-header {
+			background-color: #e37e6a;
+		}
+
+		@media screen and (min-width: 59.6875em) {
+			.site-header,
+			.secondary {
+				background-color: transparent;
+			}
+
+			.widget button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.widget_calendar tbody a:focus {
+				color: #e37e6a;
+			}
+		}
+	
+
+		/* Custom Sidebar Text Color */
+		.site-title a,
+		.site-description,
+		.secondary-toggle:before {
+			color: #ffffff;
+		}
+
+		.site-title a:hover,
+		.site-title a:focus {
+			color: #ffffff; /* Fallback for IE7 and IE8 */
+			color: rgba( 255, 255, 255, 0.7);
+		}
+
+		.secondary-toggle {
+			border-color: #ffffff; /* Fallback for IE7 and IE8 */
+			border-color: rgba( 255, 255, 255, 0.1);
+		}
+
+		.secondary-toggle:hover,
+		.secondary-toggle:focus {
+			border-color: #ffffff; /* Fallback for IE7 and IE8 */
+			border-color: rgba( 255, 255, 255, 0.3);
+		}
+
+		.site-title a {
+			outline-color: #ffffff; /* Fallback for IE7 and IE8 */
+			outline-color: rgba( 255, 255, 255, 0.3);
+		}
+
+		@media screen and (min-width: 59.6875em) {
+			.secondary a,
+			.dropdown-toggle:after,
+			.widget-title,
+			.widget blockquote cite,
+			.widget blockquote small {
+				color: #ffffff;
+			}
+
+			.widget button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a {
+				background-color: #ffffff;
+			}
+
+			.textwidget a {
+				border-color: #ffffff;
+			}
+
+			.secondary a:hover,
+			.secondary a:focus,
+			.main-navigation .menu-item-description,
+			.widget,
+			.widget blockquote,
+			.widget .wp-caption-text,
+			.widget .gallery-caption {
+				color: rgba( 255, 255, 255, 0.7);
+			}
+
+			.widget button:hover,
+			.widget button:focus,
+			.widget input[type="button"]:hover,
+			.widget input[type="button"]:focus,
+			.widget input[type="reset"]:hover,
+			.widget input[type="reset"]:focus,
+			.widget input[type="submit"]:hover,
+			.widget input[type="submit"]:focus,
+			.widget_calendar tbody a:hover,
+			.widget_calendar tbody a:focus {
+				background-color: rgba( 255, 255, 255, 0.7);
+			}
+
+			.widget blockquote {
+				border-color: rgba( 255, 255, 255, 0.7);
+			}
+
+			.main-navigation ul,
+			.main-navigation li,
+			.secondary-toggle,
+			.widget input,
+			.widget textarea,
+			.widget table,
+			.widget th,
+			.widget td,
+			.widget pre,
+			.widget li,
+			.widget_categories .children,
+			.widget_nav_menu .sub-menu,
+			.widget_pages .children,
+			.widget abbr[title] {
+				border-color: rgba( 255, 255, 255, 0.1);
+			}
+
+			.dropdown-toggle:hover,
+			.dropdown-toggle:focus,
+			.widget hr {
+				background-color: rgba( 255, 255, 255, 0.1);
+			}
+
+			.widget input:focus,
+			.widget textarea:focus {
+				border-color: rgba( 255, 255, 255, 0.3);
+			}
+
+			.sidebar a:focus,
+			.dropdown-toggle:focus {
+				outline-color: rgba( 255, 255, 255, 0.3);
+			}
+		}
+	
+</style>
+<link rel='stylesheet' id='twentyfifteen-block-style-css'  href='wp-content/themes/twentyfifteen/css/blocks.css%3Fver=20190102.css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfifteen-ie-css'  href='https://datastudio2020.datatherapy.org/wp-content/themes/twentyfifteen/css/ie.css?ver=20170916' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentyfifteen-ie7-css'  href='https://datastudio2020.datatherapy.org/wp-content/themes/twentyfifteen/css/ie7.css?ver=20141210' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='dry_awp_theme_style-css'  href='wp-content/plugins/advanced-wp-columns/assets/css/awp-columns.css%3Fver=5.4.1.css' media='all' />
+<link rel='stylesheet' id='tmm-css'  href='wp-content/plugins/team-members/inc/css/tmm_style.css%3Fver=5.4.1.css' media='all' />
+<script src='wp-includes/js/jquery/jquery.js%3Fver=1.12.4-wp'></script>
+<script src='wp-includes/js/jquery/jquery-migrate.min.js%3Fver=1.4.1'></script>
+<script src='wp-content/plugins/blog-designer/js/designer.js%3Fver=5.4.1'></script>
+<link rel='https://api.w.org/' href='wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php%3Frsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='MPG, Drive, the Environment: What Car Fits Your Priorities?' href='index.html%3Fp=473.html' />
+<link rel='next' title='Moving to Bangor Maine' href='index.html%3Fp=499.html' />
+<meta name="generator" content="WordPress 5.4.1" />
+<link rel="canonical" href="index.html%3Fp=471.html" />
+<link rel='shortlink' href='index.html%3Fp=471.html' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fdatastudio2020.datatherapy.org%252F2020%252F04%252F22%252Fcars-in-space-a-data-game%252F" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fdatastudio2020.datatherapy.org%252F2020%252F04%252F22%252Fcars-in-space-a-data-game%252F&amp;format=xml" />
+<style type="text/css" id="tve_global_variables">:root{}</style><script src='https://wordpress.brownbag.me/?dm=92dfdf7b65c23102d23f0f69d602eef7&amp;action=load&amp;blogid=34&amp;siteid=1&amp;t=1290747235&amp;back=https%3A%2F%2Fdatastudio2020.datatherapy.org%2F2020%2F04%2F22%2Fcars-in-space-a-data-game%2F' type='text/javascript'></script><meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://datastudio2020.datatherapy.org"><link rel="https://theeventscalendar.com/" href="wp-json/tribe/events/v1/index.html" /><!-- All in one Favicon 4.7 --><style id="custom-background-css">
+body.custom-background { background-color: #5a0031; }
+</style>
+	<style type="text/css" id="thrive-default-styles"></style></head>
+
+<body class="post-template-default single single-post postid-471 single-format-standard custom-background wp-embed-responsive tribe-no-js tribe-theme-twentyfifteen">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="index.html%3Fp=471.html#content">Skip to content</a>
+
+	<div id="sidebar" class="sidebar">
+		<header id="masthead" class="site-header" role="banner">
+			<div class="site-branding">
+										<p class="site-title"><a href="index.html" rel="home">Data Storytelling Studio 2020</a></p>
+										<button class="secondary-toggle">Menu and widgets</button>
+			</div><!-- .site-branding -->
+		</header><!-- .site-header -->
+
+			<div id="secondary" class="secondary">
+
+					<nav id="site-navigation" class="main-navigation" role="navigation">
+				<div class="menu-main-container"><ul id="menu-main" class="nav-menu"><li id="menu-item-10" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-10"><a href="index.html">Home</a></li>
+<li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a href="https://docs.google.com/document/d/1D84VfhCnNHBdNPKg4A7EzRxlweHjRzr8ji0QR73fcqI/edit?usp=sharing">Syllabus</a></li>
+<li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a href="https://drive.google.com/drive/folders/1iH4J9lmnwYBAvVYxB27lQPo6Lbeido7M?usp=sharing">Lecture Slides</a></li>
+<li id="menu-item-11" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-11"><a href="index.html%3Fp=6.html">About this Class</a></li>
+</ul></div>			</nav><!-- .main-navigation -->
+		
+		
+					<div id="widget-area" class="widget-area" role="complementary">
+				<aside id="categories-2" class="widget widget_categories"><h2 class="widget-title">Categories</h2>		<ul>
+				<li class="cat-item cat-item-5"><a href="category/charts-creative-charts/index.html">charts &amp; creative charts</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="category/data-games/index.html">data games</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="category/data-logs/index.html">data logs</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="category/data-sculptures/index.html">data sculptures</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="category/final-projects/index.html">final projects</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="category/maps-creative-maps/index.html">maps &amp; creative maps</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="category/meta/index.html">meta</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="category/reading-summary/index.html">reading summary</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="category/viz-reviews/index.html">viz reviews</a>
+</li>
+		</ul>
+			</aside><aside id="text-2" class="widget widget_text">			<div class="textwidget"><p>This is the course website for the MIT Data Storytelling Studio course (Spring 2020 semester), taught by Rahul Bhargava.</p>
+<p><em>MAS.784, CMS.631, CMS.831</em></p>
+</div>
+		</aside><aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="index.html">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit screen-reader-text" value="Search" />
+			</form></aside><aside id="meta-2" class="widget widget_meta"><h2 class="widget-title">Meta</h2>			<ul>
+						<li><a href="wp-login.php.html">Log in</a></li>
+			<li><a href="feed/index.html">Entries feed</a></li>
+			<li><a href="comments/feed/index.html">Comments feed</a></li>
+			<li><a href="https://wordpress.org/">WordPress.org</a></li>			</ul>
+			</aside>			</div><!-- .widget-area -->
+		
+	</div><!-- .secondary -->
+
+	</div><!-- .sidebar -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+<article id="post-471" class="post-471 post type-post status-publish format-standard hentry category-data-games">
+	
+	<header class="entry-header">
+		<h1 class="entry-title">Cars in Space! A Data Game</h1>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		
+<p><em>by Gaurav Patekar, Cynthia Hua</em></p>
+
+
+
+<p>We use the Environmental Protection Agency’s <strong>Fuel Economy Data</strong> which shows how <strong>fuel efficient cars can produce drastically lower CO2 emissions, while also saving the driver money due to reduced gas costs.</strong> We wanted to tell this story because changing consumer car purchasing decisions is one of the key challenges in reducing overall vehicular pollution. We created <strong>a web-game, Cars in Space!,</strong> to provide a fun and accessible educational experience on why and how to choose greener cars.</p>
+
+
+
+<h4>BACKGROUND</h4>
+
+
+
+<p>Despite the creation of more energy efficient car models, car emissions in the US keep <strong>increasing</strong>! This is happening partly because Americans haven’t changing their car buying habits and continue to choose bigger, less efficient vehicles over the smaller models [1]. We are creating the web-based game <strong>Cars in Space! </strong>to educate consumers on the energy-efficient car options that exist and why they are worth purchasing. </p>
+
+
+
+<h4>AUDIENCE</h4>
+
+
+
+<p>Our target audience is young car buyers aged 18 &#8211; 40. This might include a college student buying a first car, a young professional buying a car for work or a parent buying a family car. We are interested in young buyers because we believe we can impact their car buying decisions over a lifetime by educating them early and because young people have the most cause to be invested in a cleaner environment.&nbsp;</p>
+
+
+
+<h4>PLACEMENT</h4>
+
+
+
+<p>The web game can be featured or advertised on car sites that a buyer might visit such as Consumer Guide, the Kelley Blue Book, or AutoTrader. It can also be advertised on Instagram and other sites millennials browse. It will be advertised as a fun break or gentle introduction for those researching car purchases — with the goal that it will end up positively influencing their decisions.&nbsp;</p>
+
+
+
+<p>CONCEPT</p>
+
+
+
+<p>We wanted to create an eye-catching racing game using actual car data. Players will get to choose various cars to drive as they try to go from Earth to Planet X without releasing too much pollution (see Walkthrough for details). We set the game in space as an exciting and unexpected move. The space setting also allows us to deal with data at large scales to demonstrate the long-term impact of fuel-efficient cars. </p>
+
+
+
+<h4>GAME WALKTHROUGH</h4>
+
+
+
+<p><strong>Game Title Card:</strong> This is the title design of the game. </p>
+
+
+
+<figure class="wp-block-image size-large"><img src="wp-content/uploads/sites/34/2020/04/Slide8-1024x576.png" alt="" class="wp-image-475" srcset="wp-content/uploads/sites/34/2020/04/Slide8-1024x576.png 1024w, wp-content/uploads/sites/34/2020/04/Slide8-300x169.png 300w, wp-content/uploads/sites/34/2020/04/Slide8-768x432.png 768w, wp-content/uploads/sites/34/2020/04/Slide8-1536x864.png 1536w, wp-content/uploads/sites/34/2020/04/Slide8.png 1539w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Game Title Card</figcaption></figure>
+
+
+
+<p><strong>Game Introduction</strong>: This part of the game teaches the player how to play.&nbsp;</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="wp-content/uploads/sites/34/2020/04/Slide10-1024x576.png" alt="" class="wp-image-477" srcset="wp-content/uploads/sites/34/2020/04/Slide10-1024x576.png 1024w, wp-content/uploads/sites/34/2020/04/Slide10-300x169.png 300w, wp-content/uploads/sites/34/2020/04/Slide10-768x432.png 768w, wp-content/uploads/sites/34/2020/04/Slide10-1536x864.png 1536w, wp-content/uploads/sites/34/2020/04/Slide10.png 1539w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>This sets up the premise of the game — players try to go from the polluted Earth to the possibly hospitable Planet X.</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><img src="wp-content/uploads/sites/34/2020/04/Slide11-1024x576.png" alt="" class="wp-image-478" srcset="wp-content/uploads/sites/34/2020/04/Slide11-1024x576.png 1024w, wp-content/uploads/sites/34/2020/04/Slide11-300x169.png 300w, wp-content/uploads/sites/34/2020/04/Slide11-768x432.png 768w, wp-content/uploads/sites/34/2020/04/Slide11-1536x864.png 1536w, wp-content/uploads/sites/34/2020/04/Slide11.png 1539w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Players choose from cars based on real car data.</figcaption></figure>
+
+
+
+<p><strong>Game Data</strong>: The next two introductory screens explain how the game data works in terms of Money and Pollution.</p>
+
+
+
+<p><strong>Earning Money:</strong> You start with a base amount of money and earn more money per mile. Additionally, <strong>more energy efficient cars earn more money per mile because of the savings on gas costs</strong>. These savings amounts are based on real data. A ticker in the upper corner will show you how much you have earned. See Behind-the-Scenes data for an in-depth explanation of how money is calculated.&nbsp;</p>
+
+
+
+<p><strong>Pollution:</strong> You release CO2 per mile that you drive. Amounts are based on real data.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="wp-content/uploads/sites/34/2020/04/Slide12-1024x576.png" alt="" class="wp-image-479" srcset="wp-content/uploads/sites/34/2020/04/Slide12-1024x576.png 1024w, wp-content/uploads/sites/34/2020/04/Slide12-300x169.png 300w, wp-content/uploads/sites/34/2020/04/Slide12-768x432.png 768w, wp-content/uploads/sites/34/2020/04/Slide12-1536x864.png 1536w, wp-content/uploads/sites/34/2020/04/Slide12.png 1539w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Players earn money, which they can use to buy more cars, as they drive. </figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><img src="wp-content/uploads/sites/34/2020/04/Slide13-1.png" alt="" class="wp-image-531" srcset="wp-content/uploads/sites/34/2020/04/Slide13-1.png 720w, wp-content/uploads/sites/34/2020/04/Slide13-1-300x169.png 300w" sizes="(max-width: 720px) 100vw, 720px" /><figcaption>Cars release pollution as they drive. Players want to eventually find a car that won&#8217;t pollute too much, lest Planet X eventually become over-polluted like Earth as well.</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><img src="wp-content/uploads/sites/34/2020/04/Slide15-1.png" alt="" class="wp-image-532" srcset="wp-content/uploads/sites/34/2020/04/Slide15-1.png 720w, wp-content/uploads/sites/34/2020/04/Slide15-1-300x169.png 300w" sizes="(max-width: 720px) 100vw, 720px" /><figcaption>Gameplay still. Note the corner tickers for Planet X Health, Distance, Co2 Emissions and Money Earned.</figcaption></figure>
+
+
+
+<p><strong>Pop-up Pollution Alerts</strong></p>
+
+
+
+<p>Pop-up alerts periodically explain to you whether your emissions are lower or higher than ideal. The explainers also describe context — for example, what would it be like if everyone drove this car?</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="wp-content/uploads/sites/34/2020/04/Slide17-1.png" alt="" class="wp-image-533" srcset="wp-content/uploads/sites/34/2020/04/Slide17-1.png 720w, wp-content/uploads/sites/34/2020/04/Slide17-1-300x169.png 300w" sizes="(max-width: 720px) 100vw, 720px" /><figcaption>Pollution Alert #1</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><img src="wp-content/uploads/sites/34/2020/04/Slide18-1.png" alt="" class="wp-image-534" srcset="wp-content/uploads/sites/34/2020/04/Slide18-1.png 720w, wp-content/uploads/sites/34/2020/04/Slide18-1-300x169.png 300w" sizes="(max-width: 720px) 100vw, 720px" /><figcaption>Pollution Alert #2</figcaption></figure>
+
+
+
+<p><strong>New Cars</strong></p>
+
+
+
+<p>Players unlock new types of cars to buy as they play. This prevents the player from being overwhelmed by too many choices upfront and allows them to learn gradually while playing. This also keeps the game exciting.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="wp-content/uploads/sites/34/2020/04/Slide20-1.png" alt="" class="wp-image-535" srcset="wp-content/uploads/sites/34/2020/04/Slide20-1.png 720w, wp-content/uploads/sites/34/2020/04/Slide20-1-300x169.png 300w" sizes="(max-width: 720px) 100vw, 720px" /><figcaption>New Car Option</figcaption></figure>
+
+
+
+<p><strong>Fun</strong></p>
+
+
+
+<p>Gameplay includes fun and twisty curves to travel through, pretty planets to see, and various bonuses to go through like stars, asteroids and aliens.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="wp-content/uploads/sites/34/2020/04/Slide22-1.png" alt="" class="wp-image-536" srcset="wp-content/uploads/sites/34/2020/04/Slide22-1.png 720w, wp-content/uploads/sites/34/2020/04/Slide22-1-300x169.png 300w" sizes="(max-width: 720px) 100vw, 720px" /><figcaption>Gameplay Still</figcaption></figure>
+
+
+
+<h4>Takeaway</h4>
+
+
+
+<p>At the end of the game, <strong>players can view online or save a PDF of the game’s an energy efficient car guide with them that includes all the cars they played with and even those they didn’t!</strong> The full guide includes 44 cars, one from each model in the EPA’s dataset. The guide will allow players to contextualize and summarize their learnings, and also be useful for car buying decisions. In the digital guide, players will be able to mouse over images to see fuller data. In the print guide, the data will be printed alongside the images.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="wp-content/uploads/sites/34/2020/04/Slide24-1024x576.png" alt="" class="wp-image-490" srcset="wp-content/uploads/sites/34/2020/04/Slide24-1024x576.png 1024w, wp-content/uploads/sites/34/2020/04/Slide24-300x169.png 300w, wp-content/uploads/sites/34/2020/04/Slide24-768x432.png 768w, wp-content/uploads/sites/34/2020/04/Slide24-1536x864.png 1536w, wp-content/uploads/sites/34/2020/04/Slide24.png 1539w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h4>Game Logic</h4>
+
+
+
+<p>Note that since this is a simple web game, there are some fantastical flights of fancy that we take! Obviously most of this is not even barely possible. However, since all of our data is based on real life car data, we believe a user will come away with accurate notions about what they could potentially gain from buying a greener car (even if the metaphor was in space)!</p>
+
+
+
+<h4>Behind-the-Scenes Game Data (Feel free to skip this section)</h4>
+
+
+
+<p>This part explains how the game’s calculations work, to demonstrate that we did all the detailed math. But the player does NOT see all these detailed calculations (too distracting!).</p>
+
+
+
+<ul><li><strong>How Travel Works </strong>— The car will travel 6 billion miles to Planet X (Pluto is 4.67 billion miles away)[2]. Cars travel ~400 million miles per minute and the game takes about 15 minutes to play in full unless the player runs out of money or over-pollutes and dies early.&nbsp;&nbsp;</li></ul>
+
+
+
+<ul><li><strong>How Cars Work </strong>—&nbsp;There are 44 possible cars the player can buy in the game — one sample from every single model in the EPA dataset. Cars become exhausted and need to be replaced every 15-45 seconds. As the player plays, more cars will become unlocked and available for purchase.</li></ul>
+
+
+
+<ul><li><strong>How CO2 Works</strong> —&nbsp;Cars produce CO2 based on their EPA CO2 Score which gives grams of CO2 production per mile. Scores in our dataset range from 200 to 700 grams per mile.&nbsp;</li></ul>
+
+
+
+<ul><li><strong>How Money Works</strong> —&nbsp;Players earn money as they travel further (the money ticker goes up simply as the game progresses). The money ticker will go up faster for more fuel-efficient cars because they reduce the cost of gas.&nbsp;</li></ul>
+
+
+
+<ul><li>Specifically: Cars in our dataset have Highway MPG ranging from 15 to 116. Money goes up at a base rate of ($1 per million miles) for cars with Highway MPG 30 or below (because we want to compare more fuel efficient cars to an average car, not the least efficient clunkers — we feel this comparison is more applicable to the behavior change we want to drive):</li></ul>
+
+
+
+<p>Money goes up faster for more efficient cars using this savings calculation:</p>
+
+
+
+<p><strong>Gas: $1.5/gallon</strong></p>
+
+
+
+<p><strong>Total Money = ($1) * (Miles Traveled) / (1,000,000) + (Money from gas savings)</strong></p>
+
+
+
+<p><strong>(Money from gas savings) = (Miles Traveled) * (Savings Per Mile)</strong></p>
+
+
+
+<p><strong>(Savings Per Mile) = (Cost per mile at Highway MPG 30 &#8211; Cost per mile at Highway MPG X)</strong><br></p>
+
+
+
+<ul><li>Players earn bonus $ from driving through asteroids, shooting stars, aliens and other fun bonuses. Players will earn approx. $10,000-20,000 from these bonuses, whose appearance is determined randomly.&nbsp;</li></ul>
+
+
+
+<ul><li>Driving the most inefficient car all the way, a player will earn ($6000 + bonuses) over the course of the game. Driving the most efficient car all the way, a player would earn $222 billion over the course of the game. <strong>However, it is most likely that a player would earn ~$1-2 billion over the course of the game.&nbsp;</strong></li></ul>
+
+
+
+<ul><li>A player would need at most $2 million to buy one of each of the cars in our game.&nbsp; Cars also become exhausted every 15-45 seconds and need to be replaced throughout the game. Accumulating lots of extra money is just for fun and oxytocin release — and to demonstrate the big long-term value of fuel-efficient vehicles.</li></ul>
+
+
+
+<h4>Background Research</h4>
+
+
+
+<p>The following data points were use to calculate Pollution Alerts and other game data:</p>
+
+
+
+<ul><li>American drivers put 3.22 trillion <strong>miles</strong> on the nations roads last <strong>year</strong>, up <strong>by</strong> 2.8 percent from 2015.[3]</li><li>Researchers saw an average temperature increase of 1.7 ±0.4°C per trillion tonnes of carbon in CO2 emissions (TtC).[4]</li><li>According to data from the U.S. Department of Transportation, the average American driver puts in <strong>13,474 miles</strong> behind the wheel each year. <a href="https://www.fool.com/investing/general/2015/01/25/the-average-american-drives-this-much-each-year-ho.aspx">[</a>5]</li></ul>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Data Storytelling Studio: Cars in Space!" width="660" height="371" src="https://www.youtube.com/embed/MpDIG99x6Dk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<h4>BIBLIOGRAPHY</h4>
+
+
+
+[1] Univ. of Michigan study <a href="https://qz.com/494989/todays-buzziest-cars-are-more-fuel-efficient-but-theyre-not-what-americans-are-really-buying/">https://qz.com/494989/todays-buzziest-cars-are-more-fuel-efficient-but-theyre-not-what-americans-are-really-buying/</a></p>
+
+
+
+[2] <a href="https://www.space.com/18566-pluto-distance.html">https://www.space.com/18566-pluto-distance.html</a></p>
+
+
+
+[3] <a href="https://www.npr.org/sections/thetwo-way/2017/02/21/516512439/record-number-of-miles-driven-in-u-s-last-year">https://www.npr.org/sections/thetwo-way/2017/02/21/516512439/record-number-of-miles-driven-in-u-s-last-year</a></p>
+
+
+
+[4]<a href="https://phys.org/news/2016-01-temperature-co2-emissions.html">https://phys.org/news/2016-01-temperature-co2-emissions.html</a>\</p>
+
+
+
+[5]<a href="https://www.fool.com/investing/general/2015/01/25/the-average-american-drives-this-much-each-year-ho.aspx">https://www.fool.com/investing/general/2015/01/25/the-average-american-drives-this-much-each-year-ho.aspx</a></p>
+
+
+
+<p><br></p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="index.html%3Fp=471.html" rel="bookmark"><time class="entry-date published" datetime="2020-04-22T13:25:52+00:00">April 22, 2020</time><time class="updated" datetime="2020-04-23T02:06:54+00:00">April 23, 2020</time></a></span><span class="byline"><span class="author vcard"><span class="screen-reader-text">Author </span><a class="url fn n" href="author/cxhua/index.html">cxhua</a></span></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="category/data-games/index.html" rel="category tag">data games</a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-471 -->
+
+<div id="comments" class="comments-area">
+
+			<h2 class="comments-title">
+			6 thoughts on &ldquo;Cars in Space! A Data Game&rdquo;		</h2>
+
+		
+		<ol class="comment-list">
+					<li id="comment-54" class="comment byuser comment-author-joshuafeldman even thread-even depth-1">
+			<article id="div-comment-54" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://secure.gravatar.com/avatar/6b553986067a488194e43c8e2f8e35a8?s=56&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/6b553986067a488194e43c8e2f8e35a8?s=112&#038;d=mm&#038;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' />						<b class="fn">joshuafeldman</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="index.html%3Fp=471.html#comment-54">
+							<time datetime="2020-04-23T02:07:22+00:00">
+								April 23, 2020 at 2:07 am							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>I really like how you&#8217;ve made this data so accessible! I especially like how you take the individual car and scale it up to the entire world and then contextualize that with the earth&#8217;s current carbon emissions. I also like how the game makes the connection between an environmentally friendly car and a car that saves you money &#8211; a win-win! I think something you could continue to iterate on is the tone of the game. The visuals and language in the game seem like they&#8217;re targeted to an audience that&#8217;s younger than 18-40. Maybe you could make the game for kids and the call to action is telling their parents what car to get. Or you could change the graphics, language, and/or setting to seem more appropriate for the 18-40 range.</p>
+				</div><!-- .comment-content -->
+
+							</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		<li id="comment-58" class="comment byuser comment-author-ddz1 odd alt thread-odd thread-alt depth-1">
+			<article id="div-comment-58" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://secure.gravatar.com/avatar/d09343dcc3e9747689853a8e888540da?s=56&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/d09343dcc3e9747689853a8e888540da?s=112&#038;d=mm&#038;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' />						<b class="fn">ddz1</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="index.html%3Fp=471.html#comment-58">
+							<time datetime="2020-04-23T02:25:17+00:00">
+								April 23, 2020 at 2:25 am							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>I think this game is a really creative way to communicate fuel efficiency and gas mileage, and there are some great graphics in the sketch.</p>
+<p>To make this more directly engaging to an audience who may be looking to buy a car, you could consider making the car selection more flexible in the beginning to allow users to filter to a certain brand or price range, and then &#8220;unlock&#8221; similar cars as the game progresses.</p>
+				</div><!-- .comment-content -->
+
+							</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		<li id="comment-64" class="comment byuser comment-author-nspendse even thread-even depth-1">
+			<article id="div-comment-64" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://secure.gravatar.com/avatar/dd5627ddf3ef1d3ca10cf3b5895e0855?s=56&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/dd5627ddf3ef1d3ca10cf3b5895e0855?s=112&#038;d=mm&#038;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' />						<b class="fn">nspendse</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="index.html%3Fp=471.html#comment-64">
+							<time datetime="2020-04-23T13:16:12+00:00">
+								April 23, 2020 at 1:16 pm							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>I really love the concept of this game and also the graphics, it&#8217;s really neat. One thing that you can probably work on is the point system. Right now you are rewarding more efficient cars by increasing earnings. But I guess if you penalize less efficient cars by reducing the earnings of the players, it will create a bigger impact. You can also change the graphics according to how efficient the cars are. For eg. if a car is good then the graphics are positive but if a car is bad then there&#8217;s smoke or something else which is negative.</p>
+				</div><!-- .comment-content -->
+
+							</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		<li id="comment-66" class="comment byuser comment-author-rahulb odd alt thread-odd thread-alt depth-1">
+			<article id="div-comment-66" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://secure.gravatar.com/avatar/516575ab253d887f9d3d88f8b8240869?s=56&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/516575ab253d887f9d3d88f8b8240869?s=112&#038;d=mm&#038;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' />						<b class="fn">rahulb</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="index.html%3Fp=471.html#comment-66">
+							<time datetime="2020-04-23T13:26:30+00:00">
+								April 23, 2020 at 1:26 pm							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Nice job here created a take on how to inform people about the environmental load and economic impact of their car purchase, with lots of detailed parts integrating the data. A well fleshed out sketch.</p>
+<p>Centrality of participation:<br />
+The whole piece is an interactive game, where you make decisions based on representations the car data. Participation is very central.</p>
+<p>Rationale for design choices:<br />
+Doing a playful game makes sense for this audience to me. The visual treatment is strong and echoes the playful approach. In future iterations I’d like to see some justification that young people are a significant portion of car purchases, or miles travelled, or something like that to justify focusing on them.</p>
+<p>Layers of reading:<br />
+There are strong multiple layers presented here.I like the multiple approaches here, from the car cards, to the data-based game outcomes, to the pollution alerts. The game report you get at the end is another example of this.</p>
+<p>Appropriate data use:<br />
+You’ve got a few dimensions of data about each car on the cards. The pollution data is also based on real information. The money and pollution data are well represented in the game play and mechanics.</p>
+<p>Suitability for audience:<br />
+Targeting young folks making decisions is a good narrowing in on an audience to help you make reasonable design choices. I can easily imagine the ad campaign that would accompany this game’s launch. A quick reminder &#8211; some people enjoy shopping for and comparing between cars (not me, but I know some folks that do).</p>
+<p>Narrative:<br />
+Rule-based design is tricky, but I think you’re starting from a good spot. Ideas like unlocking new cars are a nice nod to ways to keep it interesting and surprising.  I’d consider doubling down on the Tesla-in-Space link to help the game make sense and respond to current-ish events.</p>
+<p>Call to Action:<br />
+I like the “save mankind” goal. The idea of generating a “game report” at the end as a takeaway is a solid start at thinking about what the potential longer-time impacts of the game experience could be. The hopes to educate the audience about the potential impact of their choice, so the call to action is well aligned with the audience description.</p>
+				</div><!-- .comment-content -->
+
+							</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		<li id="comment-71" class="comment byuser comment-author-xio1 even thread-even depth-1">
+			<article id="div-comment-71" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://secure.gravatar.com/avatar/87574cb18483c7144521ca6c1ababe26?s=56&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/87574cb18483c7144521ca6c1ababe26?s=112&#038;d=mm&#038;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' />						<b class="fn">xio1</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="index.html%3Fp=471.html#comment-71">
+							<time datetime="2020-04-23T14:05:51+00:00">
+								April 23, 2020 at 2:05 pm							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>I think this is amazing, super cute game and concept. I think it makes visible some of the invisible impacts of buying a car in a really compelling way &#8211; such a bummer that we had to go to space to get there. </p>
+<p>Echoing another comment, if you were to develop it further, it could be interesting to have sliders that allow someone to put in the specs of a car not in your library, or of their current car make/model to then compare them against the recommended ones in your guide.</p>
+				</div><!-- .comment-content -->
+
+							</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		<li id="comment-83" class="comment byuser comment-author-hmounla odd alt thread-odd thread-alt depth-1">
+			<article id="div-comment-83" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://secure.gravatar.com/avatar/e46dab1c17cb0c9b15689e327bd49356?s=56&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/e46dab1c17cb0c9b15689e327bd49356?s=112&#038;d=mm&#038;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' />						<b class="fn">hmounla</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="index.html%3Fp=471.html#comment-83">
+							<time datetime="2020-04-23T15:15:37+00:00">
+								April 23, 2020 at 3:15 pm							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>I really like the visual dynamics in this sketch as well as how interactive the game is. One way you might want to improve it is not only to use the scaling as a means to show the data but also potentially the levels in terms of accessing different types of cars by placing the more fuel efficient cars in the more advanced levels.</p>
+				</div><!-- .comment-content -->
+
+							</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		</ol><!-- .comment-list -->
+
+		
+	
+		<p class="no-comments">Comments are closed.</p>
+	
+	
+</div><!-- .comments-area -->
+
+	<nav class="navigation post-navigation" role="navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="index.html%3Fp=473.html" rel="prev"><span class="meta-nav" aria-hidden="true">Previous</span> <span class="screen-reader-text">Previous post:</span> <span class="post-title">MPG, Drive, the Environment: What Car Fits Your Priorities?</span></a></div><div class="nav-next"><a href="index.html%3Fp=499.html" rel="next"><span class="meta-nav" aria-hidden="true">Next</span> <span class="screen-reader-text">Next post:</span> <span class="post-title">Moving to Bangor Maine</span></a></div></div>
+	</nav>
+		</main><!-- .site-main -->
+	</div><!-- .content-area -->
+
+
+	</div><!-- .site-content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+									<a href="https://wordpress.org/" class="imprint">
+				Proudly powered by WordPress			</a>
+		</div><!-- .site-info -->
+	</footer><!-- .site-footer -->
+
+</div><!-- .site -->
+
+<script type='text/javascript'>
+var colomatduration = 'fast';
+var colomatslideEffect = 'slideFade';
+var colomatpauseInit = '';
+var colomattouchstart = '';
+</script>		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><script src='wp-includes/js/imagesloaded.min.js%3Fver=3.2.0'></script>
+<script src='wp-includes/js/masonry.min.js%3Fver=3.3.2'></script>
+<script src='wp-content/plugins/jquery-collapse-o-matic/js/collapse.js%3Fver=1.6.19'></script>
+<script src='wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js%3Fver=20141028'></script>
+<script>
+var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
+</script>
+<script src='wp-content/themes/twentyfifteen/js/functions.js%3Fver=20171218'></script>
+<script>
+var tve_dash_front = {"ajaxurl":"https:\/\/datastudio2020.datatherapy.org\/wp-admin\/admin-ajax.php","force_ajax_send":"","is_crawler":"1"};
+</script>
+<script src='wp-content/plugins/thrive-visual-editor/thrive-dashboard/js/dist/frontend.min.js%3Fver=2.2.16.1'></script>
+<script src='wp-includes/js/wp-embed.min.js%3Fver=5.4.1'></script>
+<script type="text/javascript">var tcb_post_lists=JSON.parse('[]');</script>
+</body>
+</html>
